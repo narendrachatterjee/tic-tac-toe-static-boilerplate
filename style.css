@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@500&family=Poppins:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fredoka One');
 
 *{
     margin: 0;
@@ -7,16 +7,15 @@
 }
 
 body{
-    background-color: rgb(86, 86, 233);
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: dodgerblue;
+    font-family: 'Fredoka One', sans-serif;
+    font-size: 16px;
 }
 
-body h1{
-    font-size: 100px;
-    color: white;
-    -webkit-text-fill-color: #FAB201; 
-    -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: white;
+h1{
+    font-size: 80px;
+    color: #FAB201;
+    -webkit-text-stroke: 5px white;
     display: flex;
     justify-content: center;
     padding-top:100px;
@@ -31,18 +30,15 @@ main{
     display: grid;
     grid-template-rows: 80px 80px 80px;
     grid-template-columns: 80px 80px 80px;
-    gap:20px;
+    gap:10px;
     padding-top:50px;
 }
 
 .box {
   background: #ffffff;
-  border: 1px solid #fffdfd;
   display: flex;
-  align-items: center;
-  justify-content: center;
   border-radius: 10px;
-  box-shadow: black;
+  box-shadow: 5px 5px 5px rgba(104, 89, 89, 0.522);
 }
 
 footer h3{
